@@ -8,6 +8,11 @@ display : block;
 margin : auto;
 }
 
+footer {
+  display : block;
+margin : auto;
+}
+
 .boutonpresentation{
   font-family: Arial,sans-serif;
        font-size: 1.6vh;
@@ -16,7 +21,7 @@ margin : auto;
        text-align: center;
        color: #000;
        background: #fffd77;
-       position: absolute;
+       position: fixed;
        left: 31%;
        top: 19%;
 }
@@ -28,7 +33,7 @@ margin : auto;
        text-align: center;
        color: #000;
        background: #edc9ff;
-       position: absolute;
+       position: fixed;
        left: 50%;
        top: 43%;
 }
