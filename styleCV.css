@@ -1,6 +1,6 @@
 body{
   background-color:white
-  background-image:url(https://roadsandclouds.files.wordpress.com/2016/01/photo18611.jpg?w=515&h=386);
+
 }
 
 header{
@@ -19,70 +19,157 @@ footer {
        width: 40vh;
        height: 30vh;
        text-align: center;
-       color: #000;
+       color: #fffd77;
        background: #fffd77;
        position: fixed;
        left: 30.5%;
        top: 20%;
 }
+.boutonpresentation:hover{
+  font-family: Arial,sans-serif;
+       font-size: 1.6vh;
+       width: 42vh;
+       height: 32vh;
+       text-align: center;
+       color: #000;
+       background: #fffd77;
+       position: fixed;
+       left: 30.5%;
+       top: 20%;
+       z-index: 10;
+}
+
 .boutoncompetences{
   font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 45vh;
        height: 10vh;
        text-align: center;
-       color: #000;
+       color: #edc9ff;
        background: #edc9ff;
        position: fixed;
        left: 50%;
        top: 40%;
 }
+.boutoncompetences:hover{
+  font-family: Arial,sans-serif;
+       font-size: 1.6vh;
+       width: 47vh;
+       height: 12vh;
+       text-align: center;
+       color: #000;
+       background: #edc9ff;
+       position: fixed;
+       left: 50%;
+       top: 40%;
+       z-index: 10
+}
+
 .boutonformation{
   font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 22vh;
        height: 30vh;
        text-align: center;
-       color: #000;
+       color: #fa8334;
        background: #fa8334;
        position: absolute;
        left: 50%;
        top: 63%;
 }
+.boutonformation:hover{
+  font-family: Arial,sans-serif;
+       font-size: 1.6vh;
+       width: 24vh;
+       height: 32vh;
+       text-align: center;
+       color: #000;
+       background: #fa8334;
+       position: absolute;
+       left: 50%;
+       top: 63%;
+       z-index: 10;
+}
+
 .boutonexperience{
   font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 15vh;
        height: 27vh;
        text-align: center;
+       color: #5c80bc;
+       background: #5c80bc;
+       position: absolute;
+       left: 42.7%;
+       top: 50%;
+}
+.boutonexperience:hover{
+  font-family: Arial,sans-serif;
+       font-size: 1.6vh;
+       width: 17vh;
+       height: 29vh;
+       text-align: center;
        color: #000;
        background: #5c80bc;
        position: absolute;
        left: 42.7%;
        top: 50%;
-
+       z-index: 10;
 }
+
 .boutonlien{
   font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 13vh;
        height: 13vh;
        text-align: center;
-       color: #000;
+       color: #cc444b;
        background: #cc444b;
        position: absolute;
        left: 50%;
        top: 50%;
 }
+.boutonlien:hover{
+  font-family: Arial,sans-serif;
+       font-size: 1.6vh;
+       width: 15vh;
+       height: 15vh;
+       text-align: center;
+       color: #000;
+       background: #cc444b;
+       position: absolute;
+       left: 50%;
+       top: 50%;
+       z-index: 10;
+}
+
 .boutoninteret{
   font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 18vh;
        height: 11vh;
        text-align: center;
+       color: #540d6e;
+       background: #540d6e;
+       position: absolute;
+       left: 50%;
+       top: 29%;
+}
+.boutoninteret:hover{
+  font-family: Arial,sans-serif;
+       font-size: 1.6vh;
+       width: 20vh;
+       height: 13vh;
+       text-align: center;
        color: #000;
        background: #540d6e;
        position: absolute;
        left: 50%;
        top: 29%;
+       z-index: 10;
+}
+
+
+.modal-dialog  {
+  z-index: 30;
 }
