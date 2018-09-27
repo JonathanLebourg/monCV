@@ -13,6 +13,9 @@ footer {
   text-align: center;
 }
 
+footer a{
+  color:black; 
+}
 .boutonpresentation{
 
        font-size: 1.6vh;
