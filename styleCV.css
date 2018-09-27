@@ -1,16 +1,16 @@
 body{
   background-color:white
+  background-image:url(https://roadsandclouds.files.wordpress.com/2016/01/photo18611.jpg?w=515&h=386);
 }
 
 header{
-width : 50vh;
+width : 60vh;
 display : block;
 margin : auto;
 }
 
 footer {
-  display : block;
-margin : auto;
+  text-align: center;
 }
 
 .boutonpresentation{
@@ -22,8 +22,8 @@ margin : auto;
        color: #000;
        background: #fffd77;
        position: fixed;
-       left: 31%;
-       top: 19%;
+       left: 30.5%;
+       top: 20%;
 }
 .boutoncompetences{
   font-family: Arial,sans-serif;
@@ -35,7 +35,7 @@ margin : auto;
        background: #edc9ff;
        position: fixed;
        left: 50%;
-       top: 43%;
+       top: 40%;
 }
 .boutonformation{
   font-family: Arial,sans-serif;
@@ -47,7 +47,7 @@ margin : auto;
        background: #fa8334;
        position: absolute;
        left: 50%;
-       top: 64%;
+       top: 63%;
 }
 .boutonexperience{
   font-family: Arial,sans-serif;
@@ -58,7 +58,7 @@ margin : auto;
        color: #000;
        background: #5c80bc;
        position: absolute;
-       left: 42.5%;
+       left: 42.7%;
        top: 50%;
 
 }
@@ -84,5 +84,5 @@ margin : auto;
        background: #540d6e;
        position: absolute;
        left: 50%;
-       top: 31.5%;
+       top: 29%;
 }
