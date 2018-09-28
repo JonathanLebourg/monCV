@@ -1,7 +1,4 @@
-body{
-  background-color:white
-
-}
+body{background-color:white}
 
 header{
 width : 60vh;
@@ -9,16 +6,12 @@ display : block;
 margin : auto;
 }
 
-footer {
-  text-align: center;
-}
+footer {text-align: center;}
 
-footer a{
-  color:black; 
-}
+footer a{color:black;}
+
 .boutonpresentation{
-
-       font-size: 1.6vh;
+       font-size: 0vh;
        width: 40vh;
        height: 30vh;
        text-align: center;
@@ -29,12 +22,11 @@ footer a{
        top: 20%;
 }
 .boutonpresentation:hover{
-
        font-size: 1.6vh;
        width: 42vh;
        height: 32vh;
        text-align: center;
-       color: #000;
+       color: #540d6e;
        background: #fffd77;
        position: fixed;
        left: 30.5%;
@@ -43,8 +35,7 @@ footer a{
 }
 
 .boutoncompetences{
-  font-family: Arial,sans-serif;
-       font-size: 1.6vh;
+       font-size: 0vh;
        width: 45vh;
        height: 10vh;
        text-align: center;
@@ -55,12 +46,11 @@ footer a{
        top: 40%;
 }
 .boutoncompetences:hover{
-  font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 47vh;
        height: 12vh;
        text-align: center;
-       color: #000;
+       color: #fa8334;
        background: #edc9ff;
        position: fixed;
        left: 50%;
@@ -69,8 +59,7 @@ footer a{
 }
 
 .boutonformation{
-  font-family: Arial,sans-serif;
-       font-size: 1.6vh;
+       font-size: 0vh;
        width: 22vh;
        height: 30vh;
        text-align: center;
@@ -81,12 +70,11 @@ footer a{
        top: 63%;
 }
 .boutonformation:hover{
-  font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 24vh;
        height: 32vh;
        text-align: center;
-       color: #000;
+       color: #edc9ff;
        background: #fa8334;
        position: absolute;
        left: 50%;
@@ -95,8 +83,7 @@ footer a{
 }
 
 .boutonexperience{
-  font-family: Arial,sans-serif;
-       font-size: 1.6vh;
+       font-size: 0vh;
        width: 19vh;
        height: 31vh;
        text-align: center;
@@ -107,12 +94,11 @@ footer a{
        top: 50%;
 }
 .boutonexperience:hover{
-  font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 21vh;
        height: 33vh;
        text-align: center;
-       color: #000;
+       color: #cc444b;
        background: #5c80bc;
        position: absolute;
        left: 40.8%;
@@ -121,8 +107,7 @@ footer a{
 }
 
 .boutonlien{
-  font-family: Arial,sans-serif;
-       font-size: 1.6vh;
+       font-size: 0vh;
        width: 13vh;
        height: 13vh;
        text-align: center;
@@ -133,12 +118,11 @@ footer a{
        top: 50%;
 }
 .boutonlien:hover{
-  font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 15vh;
        height: 15vh;
        text-align: center;
-       color: #000;
+       color: #5c80bc;
        background: #cc444b;
        position: absolute;
        left: 50%;
@@ -147,8 +131,7 @@ footer a{
 }
 
 .boutoninteret{
-  font-family: Arial,sans-serif;
-       font-size: 1.6vh;
+       font-size: 0vh;
        width: 18vh;
        height: 11vh;
        text-align: center;
@@ -159,12 +142,11 @@ footer a{
        top: 29%;
 }
 .boutoninteret:hover{
-  font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 20vh;
        height: 13vh;
        text-align: center;
-       color: #000;
+       color: #fffd77;
        background: #540d6e;
        position: absolute;
        left: 50%;
@@ -177,7 +159,6 @@ footer a{
 }
 
 /* ================ The Timeline ================ */
-
 .timeline {
   position: relative;
   width: 660px;
@@ -186,8 +167,25 @@ footer a{
   padding: 1em 0;
   list-style-type: none;
 }
+.timeline1 {
+  position: relative;
+  width: 660px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 1em 0;
+  list-style-type: none;
+}
 
-.timeline:before {
+.timeline2 {
+  position: relative;
+  width: 660px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 1em 0;
+  list-style-type: none;
+}
+
+.timeline:before, .timeline1:before, .timeline2:before {
   position: absolute;
   left: 50%;
   top: 0;
@@ -212,6 +210,30 @@ footer a{
 }
 
 .timeline li:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.timeline1 li {
+  padding: 1em 0;
+}
+
+.timeline1 li:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.timeline2 li {
+  padding: 1em 0;
+}
+
+.timeline2 li:after {
   content: "";
   display: block;
   height: 0;
