@@ -1,4 +1,5 @@
-body{background-color:white}
+body{background-color:white;
+padding-bottom:50px }
 
 header{
 width : 60vh;
@@ -365,4 +366,48 @@ footer a{color:black;}
 
 .direction-r .desc {
   margin: 1em 0 0 0.75em;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .boutonpresentation, .boutonpresentation:hover, .boutoncompetences, .boutoncompetences:hover, .boutonformation, .boutonformation:hover,.boutonexperience, .boutonexperience:hover,.boutonlien, .boutonlien:hover, .boutoninteret, .boutoninteret:hover  {
+    position: inherit;
+    margin: auto;
+  }
+  .boutonpresentation, .boutonpresentation:hover{
+    color: #540d6e;
+  }
+  .boutoncompetences, .boutoncompetences:hover{
+    color:#fa8334
+  }
+  .boutonformation, .boutonformation:hover{
+    color: #edc9ff
+  }
+  .boutonexperience, .boutonexperience:hover{
+    color: #cc444b;
+  }.boutonlien, .boutonlien:hover{
+    color: #5c80bc;
+  }
+  .boutoninteret, .boutoninteret:hover{
+    color: #fffd77;
+  }
+  .boutonformation{
+         width: 25vh;
+  }
+  .boutonformation:hover{
+         width: 27vh;
+  }
+
+  .boutonexperience{
+         width: 28vh;
+  }
+  .boutonexperience:hover{
+         width: 30vh;
+  }
+  .boutoninteret{
+         width: 20vh;
+  .boutoninteret:hover{
+         width: 22vh;
+  }
+
 }
