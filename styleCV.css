@@ -392,22 +392,32 @@ footer a{color:black;}
     color: #fffd77;
   }
   .boutonformation{
-         width: 25vh;
+         width: 120px;
   }
   .boutonformation:hover{
-         width: 27vh;
+         width: 120px;
   }
 
   .boutonexperience{
-         width: 28vh;
+         width: 150px;
   }
   .boutonexperience:hover{
-         width: 30vh;
+         width: 150px;
   }
+  .boutonlien{
+        width: 90px;
+        height: 90px
+  }
+  .boutonlien:hover{
+         width: 90px;
+         height: 90px
+  }
+
   .boutoninteret{
-         width: 20vh;
+         width: 200px;
+  }
   .boutoninteret:hover{
-         width: 22vh;
+         width: 230px;
   }
 
 }
