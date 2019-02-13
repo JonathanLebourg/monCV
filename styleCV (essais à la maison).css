@@ -1,5 +1,6 @@
-body{background-color:white;
-padding-bottom:50px
+body{
+  background-color:white
+  
 }
 
 header{
@@ -8,36 +9,42 @@ display : block;
 margin : auto;
 }
 
-footer {text-align: center;}
+footer {
+  text-align: center;
+}
 
-footer a{color:black;}
-
+footer a{
+  color:black;
+}
 .boutonpresentation{
-       font-size: 0vh;
+
+       font-size: 1.6vh;
        width: 40vh;
        height: 30vh;
        text-align: center;
        color: #fffd77;
        background: #fffd77;
        position: fixed;
-       left: 31%;
+       left: 30.5%;
        top: 20%;
 }
 .boutonpresentation:hover{
+
        font-size: 1.6vh;
        width: 42vh;
        height: 32vh;
        text-align: center;
-       color: #540d6e;
+       color: #000;
        background: #fffd77;
        position: fixed;
-       left: 31%;
+       left: 30.5%;
        top: 20%;
        z-index: 10;
 }
 
 .boutoncompetences{
-       font-size: 0vh;
+  font-family: Arial,sans-serif;
+       font-size: 1.6vh;
        width: 45vh;
        height: 10vh;
        text-align: center;
@@ -48,11 +55,12 @@ footer a{color:black;}
        top: 40%;
 }
 .boutoncompetences:hover{
+  font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 47vh;
        height: 12vh;
        text-align: center;
-       color: #fa8334;
+       color: #000;
        background: #edc9ff;
        position: fixed;
        left: 50%;
@@ -61,7 +69,8 @@ footer a{color:black;}
 }
 
 .boutonformation{
-       font-size: 0vh;
+  font-family: Arial,sans-serif;
+       font-size: 1.6vh;
        width: 22vh;
        height: 30vh;
        text-align: center;
@@ -72,11 +81,12 @@ footer a{color:black;}
        top: 63%;
 }
 .boutonformation:hover{
+  font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 24vh;
        height: 32vh;
        text-align: center;
-       color: #edc9ff;
+       color: #000;
        background: #fa8334;
        position: absolute;
        left: 50%;
@@ -85,31 +95,34 @@ footer a{color:black;}
 }
 
 .boutonexperience{
-       font-size: 0vh;
+  font-family: Arial,sans-serif;
+       font-size: 1.6vh;
        width: 19vh;
        height: 31vh;
        text-align: center;
        color: #5c80bc;
        background: #5c80bc;
        position: absolute;
-       left: 41%;
+       left: 40.8%;
        top: 50%;
 }
 .boutonexperience:hover{
+  font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 21vh;
        height: 33vh;
        text-align: center;
-       color: #cc444b;
+       color: #000;
        background: #5c80bc;
        position: absolute;
-       left: 41%;
+       left: 40.8%;
        top: 50%;
        z-index: 10;
 }
 
 .boutonlien{
-       font-size: 0vh;
+  font-family: Arial,sans-serif;
+       font-size: 1.6vh;
        width: 13vh;
        height: 13vh;
        text-align: center;
@@ -120,11 +133,12 @@ footer a{color:black;}
        top: 50%;
 }
 .boutonlien:hover{
+  font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 15vh;
        height: 15vh;
        text-align: center;
-       color: #5c80bc;
+       color: #000;
        background: #cc444b;
        position: absolute;
        left: 50%;
@@ -133,7 +147,8 @@ footer a{color:black;}
 }
 
 .boutoninteret{
-       font-size: 0vh;
+  font-family: Arial,sans-serif;
+       font-size: 1.6vh;
        width: 18vh;
        height: 11vh;
        text-align: center;
@@ -144,11 +159,12 @@ footer a{color:black;}
        top: 29%;
 }
 .boutoninteret:hover{
+  font-family: Arial,sans-serif;
        font-size: 1.6vh;
        width: 20vh;
        height: 13vh;
        text-align: center;
-       color: #fffd77;
+       color: #000;
        background: #540d6e;
        position: absolute;
        left: 50%;
@@ -161,6 +177,7 @@ footer a{color:black;}
 }
 
 /* ================ The Timeline ================ */
+
 .timeline {
   position: relative;
   width: 660px;
@@ -169,25 +186,8 @@ footer a{color:black;}
   padding: 1em 0;
   list-style-type: none;
 }
-.timeline1 {
-  position: relative;
-  width: 660px;
-  margin: 0 auto;
-  margin-top: 20px;
-  padding: 1em 0;
-  list-style-type: none;
-}
 
-.timeline2 {
-  position: relative;
-  width: 660px;
-  margin: 0 auto;
-  margin-top: 20px;
-  padding: 1em 0;
-  list-style-type: none;
-}
-
-.timeline:before, .timeline1:before, .timeline2:before {
+.timeline:before {
   position: absolute;
   left: 50%;
   top: 0;
@@ -212,30 +212,6 @@ footer a{color:black;}
 }
 
 .timeline li:after {
-  content: "";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-.timeline1 li {
-  padding: 1em 0;
-}
-
-.timeline1 li:after {
-  content: "";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-.timeline2 li {
-  padding: 1em 0;
-}
-
-.timeline2 li:after {
   content: "";
   display: block;
   height: 0;
@@ -367,58 +343,4 @@ footer a{color:black;}
 
 .direction-r .desc {
   margin: 1em 0 0 0.75em;
-}
-
-
-@media screen and (max-width: 1280px) {
-  .boutonpresentation, .boutonpresentation:hover, .boutoncompetences, .boutoncompetences:hover, .boutonformation, .boutonformation:hover,.boutonexperience, .boutonexperience:hover,.boutonlien, .boutonlien:hover, .boutoninteret, .boutoninteret:hover  {
-    position: inherit;
-    margin: auto;
-  }
-  .boutonpresentation, .boutonpresentation:hover{
-    color: #540d6e;
-  }
-  .boutoncompetences, .boutoncompetences:hover{
-    color:#fa8334
-  }
-  .boutonformation, .boutonformation:hover{
-    color: #edc9ff
-  }
-  .boutonexperience, .boutonexperience:hover{
-    color: #cc444b;
-  }.boutonlien, .boutonlien:hover{
-    color: #5c80bc;
-  }
-  .boutoninteret, .boutoninteret:hover{
-    color: #fffd77;
-  }
-  .boutonformation{
-         width: 120px;
-  }
-  .boutonformation:hover{
-         width: 120px;
-  }
-
-  .boutonexperience{
-         width: 150px;
-  }
-  .boutonexperience:hover{
-         width: 150px;
-  }
-  .boutonlien{
-        width: 90px;
-        height: 90px
-  }
-  .boutonlien:hover{
-         width: 90px;
-         height: 90px
-  }
-
-  .boutoninteret{
-         width: 200px;
-  }
-  .boutoninteret:hover{
-         width: 230px;
-  }
-
 }
